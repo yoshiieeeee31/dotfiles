@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users'
+let g:netrw_dirhist_5='/Users/yoshinarikusano'
+let g:netrw_dirhist_4='/Users/yoshinarikusano/Desktop'
+let g:netrw_dirhist_3='/Users/yoshinarikusano/Desktop/gitaa'
+let g:netrw_dirhist_2='/Users/yoshinarikusano/Desktop/Programming/piscine/review_piscine/c01/ex01'
+let g:netrw_dirhist_1='/Users/yoshinarikusano/Desktop/Programming/piscine/review_piscine/c01'

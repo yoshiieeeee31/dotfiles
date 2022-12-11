@@ -2,10 +2,18 @@
 export USER=ykusano
 export MAIL=ykusano@student.42tokyo.jp
 
+# 色を使用出来るようにする
+autoload -Uz colors
+colors
+
+# vim 風キーバインドにする
+bindkey -v
+bindkey "jk" vi-cmd-mode
+
 # PROMPT='%~ %\n> '
 PROMPT='
 [%B%F{red}%n@%m%f%b:%F{green}%~%f]
-%F{yellow}$%f '
+%F{yellow}>%f '
 
 # lsでls -GFを使える
 alias ls='ls -GF'

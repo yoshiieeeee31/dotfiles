@@ -11,3 +11,6 @@ set cursorline
 set hlsearch
 
 inoremap jk <ESC>
+
+set listchars=eol:↩︎,tab:→\ ,extends:→,precedes:←,trail:_
+set list

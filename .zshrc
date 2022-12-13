@@ -6,6 +6,8 @@ export MAIL=ykusano@student.42tokyo.jp
 autoload -Uz colors
 colors
 
+# EditorをVimに設定
+export EDITOR=vim
 # vim 風キーバインドにする
 bindkey -v
 bindkey "jk" vi-cmd-mode
@@ -18,7 +20,7 @@ PROMPT='
 # lsでls -GFを使える
 alias ls='ls -GF'
 # ccでcc -Wall -Wextra -Werrorを使える
-alias cc='gcc -Wall -Wextra -Werror -o 42tokyoykusano'
+alias cc='gcc -Wall -Wextra -Werror -o ykusano_42tokyo'
 # git add . commit -m pushまでを一気に行う
 alias acp='(){git add . && git commit -m $1 && git push}'
 
@@ -29,4 +31,4 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 # 同じコマンドをヒストリに残さない
 setopt hist_ignore_all_dups
 # ディレクトリ名だけでcdする
-# setopt auto_cd
+#setopt auto_cd

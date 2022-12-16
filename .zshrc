@@ -2,6 +2,8 @@
 export USER=ykusano
 export MAIL=ykusano@student.42tokyo.jp
 
+export XDG_CONFIG_HOME=~/.config
+
 # 色を使用出来るようにする
 autoload -Uz colors
 colors

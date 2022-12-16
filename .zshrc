@@ -22,7 +22,7 @@ alias ls='ls -GF'
 # ccでcc -Wall -Wextra -Werrorを使える
 alias cc='gcc -Wall -Wextra -Werror -o ykusano_42tokyo'
 # git add . commit -m pushまでを一気に行う
-alias acp='(){git add . && git commit -m $1 && git push}'
+alias gacp='(){git add . && git commit -m $1 && git push}'
 
 # 補完機能を有効にする
 autoload -Uz compinit && compinit

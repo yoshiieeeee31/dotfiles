@@ -12,5 +12,5 @@ set hlsearch
 
 inoremap jk <ESC>
 
-set listchars=eol:↩︎,tab:→\ ,extends:→,precedes:←,trail:_
+set listchars=eol:↲,tab:→\ ,trail:_
 set list

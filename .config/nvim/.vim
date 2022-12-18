@@ -1,1 +1,0 @@
-/Users/yoshinarikusano/dotfies/.vim

@@ -20,10 +20,11 @@ PROMPT='
 # lsでls -GFを使える
 alias ls='ls -GF'
 # ccでcc -Wall -Wextra -Werrorを使える
-alias cc='gcc -Wall -Wextra -Werror -o ykusano_42tokyo'
+alias cc='gcc -Wall -Wextra -Werror -o 42'
 # git add . commit -m pushまでを一気に行う
 alias gacp='(){git add . && git commit -m $1 && git push}'
-
+alias a='git add . && git commit -m "auto" && git push'
+# 補完機能
 # 補完機能を有効にする
 autoload -Uz compinit && compinit
 # 小文字でも大文字ディレクトリ、ファイルを補完できるようにする

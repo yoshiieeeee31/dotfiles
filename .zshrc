@@ -18,7 +18,7 @@ PROMPT='
 %F{yellow}>%f '
 
 # lsでls -GFを使える
-alias ls='ls -GF'
+alias ls='ls -F'
 # ccでcc -Wall -Wextra -Werrorを使える
 alias cc='gcc -Wall -Wextra -Werror -o 42'
 # git add . commit -m pushまでを一気に行う

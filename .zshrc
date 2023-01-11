@@ -23,13 +23,12 @@ alias ls='ls -F'
 alias cc='gcc -Wall -Wextra -Werror -o 42'
 # git add . commit -m pushまでを一気に行う
 alias gacp='(){git add . && git commit -m $1 && git push}'
-alias a='git add . && git commit -m "auto" && git push'
 # 補完機能
 # 補完機能を有効にする
-autoload -Uz compinit && compinit
+# autoload -Uz compinit && compinit
 # 小文字でも大文字ディレクトリ、ファイルを補完できるようにする
-zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
+# zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 # 同じコマンドをヒストリに残さない
-setopt hist_ignore_all_dups
+# setopt hist_ignore_all_dups
 # ディレクトリ名だけでcdする
 #setopt auto_cd
